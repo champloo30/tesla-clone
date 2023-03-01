@@ -1,0 +1,33 @@
+.announcement {
+  height: 7.5vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+
+  .announcement-container {
+    height: 7.5vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    p {
+      font-size: 0.9rem;
+      color: #313131;
+
+      a {
+        color: #313131;
+        border-bottom: 1px solid black;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+          border-bottom: 2px solid black;
+          transition: all 0.25s linear;
+        }
+      }
+    }
+  }
+}

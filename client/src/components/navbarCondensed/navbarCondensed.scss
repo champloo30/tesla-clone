@@ -1,0 +1,33 @@
+.navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .nav-container {
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    .left {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .tesla {
+        width: 8rem;
+      }
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.navbar .nav-container {
+  height: 100%;
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+.navbar .nav-container .left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar .nav-container .left .tesla {
+  width: 8rem;
+}
+.navbar .nav-container .center {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav-container .center .center-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.navbar .nav-container .center .center-list li {
+  width: 6rem;
+  padding: 0.5rem 0.125rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.navbar .nav-container .center .center-list li:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+  transition: all 0.5s ease;
+}
+.navbar .nav-container .center .center-list li:nth-child(5) {
+  width: 7rem;
+}
+.navbar .nav-container .center .center-list li:last-child {
+  width: 8rem;
+}
+.navbar .nav-container .center .center-list li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .nav-container .right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar .nav-container .right .right-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.navbar .nav-container .right .right-list li {
+  width: 4rem;
+  padding: 0.5rem 0.125rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.navbar .nav-container .right .right-list li:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+  transition: all 0.5s ease;
+}
+.navbar .nav-container .right .right-list li:nth-child(2) {
+  width: 6rem;
+}
+.navbar .nav-container .right .right-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=navbar.css.map */

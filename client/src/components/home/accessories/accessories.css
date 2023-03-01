@@ -1,0 +1,51 @@
+.accessories {
+  height: 82.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.accessories .accessories-container {
+  height: 100%;
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.accessories .accessories-container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.accessories .accessories-container .top h1 {
+  margin-top: 10vh;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.accessories .accessories-container .bottom {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.accessories .accessories-container .bottom .btn {
+  height: 2.5rem;
+  width: 16rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accessories .accessories-container .bottom .shop-now {
+  background-color: rgba(18, 18, 18, 0.95);
+  color: white;
+}
+
+/*# sourceMappingURL=accessories.css.map */
